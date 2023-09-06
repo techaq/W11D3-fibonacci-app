@@ -29,7 +29,7 @@ app.get("/fibonacci/:number", (req, res) => {
   if (isFibonacci(number)) {
     res.send("Very good. It is Fibonacci.");
   } else {
-    res.send("This is not a Fibonacci number.");
+    res.send("I can tell this is not a Fibonacci number.");
   }
 });
 
